@@ -5,7 +5,7 @@ import styles from "../../css/blog.module.css"
 import BlogCard from "./BlogCard"
 const getPosts = graphql`
   query {
-    posts: allContentfulPost(sort: { fields: createdAt, order: DESC }) {
+    posts: allContentfulPost(sort: { fields: published, order: DESC }) {
       edges {
         node {
           title
