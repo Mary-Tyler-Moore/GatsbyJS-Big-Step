@@ -50,9 +50,9 @@ const About = () => {
             businesses. We meet men & women where they are in life, and prepare
             them to move on with the skills and tools they need.
           </p>
-          <AniLink fade to="/tours" className="btn-primary">
+          <button type="button" className="btn-primary">
             learn more
-          </AniLink>
+          </button>
         </article>
       </div>
     </section>
