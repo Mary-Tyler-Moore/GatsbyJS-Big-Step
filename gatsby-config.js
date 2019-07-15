@@ -8,7 +8,7 @@ module.exports = {
     author: "@Mary-Tyler-Moore",
     siteUrl: "https://big-weekend.netlify.com", // No trailing slash allowed!
     image: "/defaultBcg.jpeg", // Path to your image you placed in the 'static' folder
-    twitterUserName: "@user1",
+    twitterUsername: "@john_smilga",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
