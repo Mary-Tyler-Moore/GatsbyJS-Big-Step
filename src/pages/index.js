@@ -40,7 +40,10 @@ export const query = graphql`
         }
       }
     }
-    tours: allContentfulTour(filter: { featured: { eq: true } }) {
+    tours: allContentfulTour(
+      filter: { featured: { eq: true } }
+      sort: { fields: price, order: DESC }
+    ) {
       edges {
         node {
           name
