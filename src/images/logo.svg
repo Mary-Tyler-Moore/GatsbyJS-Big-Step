@@ -1,14 +1,14 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 131.19 33.7">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.71 17.39">
   <defs>
     <style>
       .cls-1 {
-        font-size: 31px;
+        font-size: 16px;
         fill: #020202;
         font-family: MyriadPro-Regular, Myriad Pro;
         letter-spacing: 0.1em;
       }
 
-      .cls-2, .cls-3, .cls-4 {
+      .cls-2, .cls-3, .cls-4, .cls-5 {
         fill: #65b0d0;
       }
 
@@ -26,5 +26,5 @@
     </style>
   </defs>
   <title>logo</title>
-  <text class="cls-1" transform="translate(0 25.95)">Big<tspan class="cls-2" x="50.68" y="0"> </tspan><tspan class="cls-3" x="60.36" y="0">S</tspan><tspan class="cls-4" x="78.65" y="0">t</tspan><tspan class="cls-2" x="91.82" y="0">ep</tspan></text>
+  <text class="cls-1" transform="translate(0 13.39)">Big<tspan class="cls-2" x="26.16" y="0"> </tspan><tspan class="cls-3" x="31.15" y="0">S</tspan><tspan class="cls-4" x="40.59" y="0">t</tspan><tspan class="cls-5" x="47.39" y="0">ep</tspan></text>
 </svg>
