@@ -61,7 +61,7 @@ const Template = ({ data }) => {
             })}
           </div>
           <Link to="/tours" className="btn-primary">
-            back to tours
+            back to programs
           </Link>
         </div>
       </section>

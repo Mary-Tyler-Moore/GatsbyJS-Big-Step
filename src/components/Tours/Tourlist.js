@@ -18,7 +18,7 @@ export default class Tourlist extends Component {
   render() {
     return (
       <section className={styles.tours}>
-        <Title title="our" subtitle="tours" />
+        <Title title="our" subtitle="programs" />
 
         <div className={styles.center}>
           {this.state.sortedTours.map(({ node }) => {

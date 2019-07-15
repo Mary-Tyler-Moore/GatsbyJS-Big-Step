@@ -3,12 +3,11 @@ require("dotenv").config({
 })
 module.exports = {
   siteMetadata: {
-    title: "BackRoads",
-    description: `Explore awesome worldwide tours & discover what makes each of them unique. Forget your daily routine & say yes to adventure.`,
-    author: "@johndoe",
-    siteUrl: "https://gatsby-backroads-project-recording.netlify.com", // No trailing slash allowed!
+    title: "Big Step",
+    description: `Substance Abuse Recovery.`,
+    author: "@Mary-Tyler-Moore",
+    siteUrl: "https://big-weekend.netlify.com", // No trailing slash allowed!
     image: "/defaultBcg.jpeg", // Path to your image you placed in the 'static' folder
-    twitterUsername: "@john_smilga",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -46,8 +45,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `BackRoads Tour Company`,
-        short_name: `BackRoads`,
+        name: `Big Step`,
+        short_name: `Big Step`,
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,

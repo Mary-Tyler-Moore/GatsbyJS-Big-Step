@@ -17,11 +17,11 @@ export default memo(({ data }) => {
       <SEO title="Home" />
       <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
         <Banner
-          title="continue exploring"
-          info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sapiente id sit ut soluta quam."
+          title="START YOUR PATH TO RECOVERY TODAY"
+          info="WE'LL SHOW YOU THERE'S LIFE WORTH LIVING IN RECOVERY."
         >
           <AniLink fade to="/tours" className="btn-white">
-            explore tours
+            learn more
           </AniLink>
         </Banner>
       </StyledHero>
