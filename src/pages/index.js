@@ -3,7 +3,7 @@ import Layout from "../components/Layout"
 import SimpleHero from "../components/SimpleHero"
 import Banner from "../components/Banner"
 import { Link } from "gatsby"
-import Services from "../components/Home/Services"
+//import Services from "../components/Home/Services"
 import About from "../components/Home/About"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import StyledHero from "../components/StyledHero"
@@ -26,7 +26,6 @@ export default memo(({ data }) => {
         </Banner>
       </StyledHero>
       <About />
-      <Services />
       <Featured tours={tours} />
     </Layout>
   )
