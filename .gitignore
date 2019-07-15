@@ -17,6 +17,10 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 
+# adobe design files
+.ai
+.psd
+
 # nyc test coverage
 .nyc_output
 
