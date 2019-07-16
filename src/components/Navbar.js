@@ -19,7 +19,7 @@ const Navbar = () => {
           <img src={logo} alt="backgrouds logo" />
           <button
             type="button"
-            role="button"
+            role="hamhurger-menu"
             aria-pressed="false"
             className={styles.logoBtn}
             onClick={toggleNav}
