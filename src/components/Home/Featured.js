@@ -8,7 +8,7 @@ const Featured = ({ tours }) => {
 
   return (
     <section className={styles.tours}>
-      <Title title="our" subtitle="programs" />
+      <Title title="our programs" />
       <div className={styles.center}>
         {tours.map(({ node }) => {
           return <Tour key={node.contentful_id} tour={node} />
