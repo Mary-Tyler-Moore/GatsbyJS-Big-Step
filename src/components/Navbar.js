@@ -19,7 +19,7 @@ const Navbar = () => {
           <img src={logo} alt="backgrouds logo" />
           <button
             type="button"
-            alt="menu"
+            description="hamburger-menu"
             className={styles.logoBtn}
             onClick={toggleNav}
           >
