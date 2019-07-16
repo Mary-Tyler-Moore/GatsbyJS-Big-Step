@@ -17,7 +17,12 @@ const Navbar = () => {
       <div className={styles.navCenter}>
         <div className={styles.navHeader}>
           <img src={logo} alt="backgrouds logo" />
-          <button type="menu" className={styles.logoBtn} onClick={toggleNav}>
+          <button
+            type="button"
+            aria-label="menu"
+            className={styles.logoBtn}
+            onClick={toggleNav}
+          >
             <FaAlignRight className={styles.logoIcon} />
           </button>
         </div>
