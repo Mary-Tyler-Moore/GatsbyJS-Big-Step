@@ -17,13 +17,8 @@ const Navbar = () => {
       <div className={styles.navCenter}>
         <div className={styles.navHeader}>
           <img src={logo} alt="backgrouds logo" />
-          <button
-            type="button"
-            description="hamburger-menu"
-            className={styles.logoBtn}
-            onClick={toggleNav}
-          >
-            <FaAlignRight className={styles.logoIcon} />
+          <button type="button" className={styles.logoBtn} onClick={toggleNav}>
+            <FaAlignRight name="menu" className={styles.logoIcon} />
           </button>
         </div>
         <ul
