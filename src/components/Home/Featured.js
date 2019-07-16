@@ -15,7 +15,7 @@ const Featured = ({ tours }) => {
         })}
       </div>
       <AniLink fade to="/tours" className="btn-primary">
-        learn more
+        See Programs
       </AniLink>
     </section>
   )
