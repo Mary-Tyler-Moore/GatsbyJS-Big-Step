@@ -17,8 +17,14 @@ const Navbar = () => {
       <div className={styles.navCenter}>
         <div className={styles.navHeader}>
           <img src={logo} alt="backgrouds logo" />
-          <button type="button" className={styles.logoBtn} onClick={toggleNav}>
-            <FaAlignRight name="menu" className={styles.logoIcon} />
+          <button
+            type="button"
+            role="button"
+            aria-pressed="false"
+            className={styles.logoBtn}
+            onClick={toggleNav}
+          >
+            <FaAlignRight className={styles.logoIcon} />
           </button>
         </div>
         <ul
