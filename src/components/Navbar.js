@@ -18,9 +18,7 @@ const Navbar = () => {
         <div className={styles.navHeader}>
           <img src={logo} alt="backgrouds logo" />
           <button
-            type="button"
-            role="navigation"
-            aria-pressed="false"
+            type="menu button"
             className={styles.logoBtn}
             onClick={toggleNav}
           >
