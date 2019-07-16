@@ -20,13 +20,8 @@ export default memo(({ data }) => {
           title="START YOUR PATH TO RECOVERY TODAY"
           info="WE'LL SHOW YOU THERE'S LIFE WORTH LIVING IN RECOVERY."
         >
-          <AniLink
-            fade
-            to="/tours"
-            description="our programs"
-            className="btn-white"
-          >
-            learn more
+          <AniLink fade to="/tours" className="btn-white">
+            View Programs
           </AniLink>
         </Banner>
       </StyledHero>
