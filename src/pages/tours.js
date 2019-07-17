@@ -12,7 +12,6 @@ const tours = ({ data }) => {
       <SEO title="tours" />
       <StyledHero img={data.bcg.childImageSharp.fluid} />
       <Tours />
-      
     </Layout>
   )
 }

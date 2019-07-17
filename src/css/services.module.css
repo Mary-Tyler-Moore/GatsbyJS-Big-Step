@@ -14,7 +14,6 @@
   text-align: center;
 }
 .service span {
-  background: var(--primaryColor);
   padding: 0.5rem;
   display: inline-block;
   font-size: 2rem;
@@ -23,4 +22,3 @@
 .service h4 {
   text-transform: uppercase;
 }
-

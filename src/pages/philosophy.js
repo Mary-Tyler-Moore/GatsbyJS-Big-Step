@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import StyledHero from "../components/StyledHero"
 import { graphql } from "gatsby"
-import Services from "../components/Home/Services"
+import Services from "../components/Home/Philosophy"
 //import Philosophy from "../components/Philosophy/Philosophy"
 import SEO from "../components/SEO"
 
