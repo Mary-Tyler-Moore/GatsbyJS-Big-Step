@@ -43,7 +43,6 @@ const About = () => {
             work, into school, into volunteering, and for those who seek it,
             participation in the faith community.
           </p>
-          <p>
           <button type="button" className="btn-primary">
             learn more
           </button>
