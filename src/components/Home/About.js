@@ -44,12 +44,6 @@ const About = () => {
             participation in the faith community.
           </p>
           <p>
-            Life goals, and the skills to achieve them, are what we are about.
-            Some men & women show up without knowing how to make up a bed, or
-            prepare a basic dinner, while others show up having run successful
-            businesses. We meet men & women where they are in life, and prepare
-            them to move on with the skills and tools they need.
-          </p>
           <button type="button" className="btn-primary">
             learn more
           </button>
