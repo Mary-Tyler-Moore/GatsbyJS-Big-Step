@@ -8,13 +8,14 @@ Until I set up the hook I will trigger a rebuild of the site by updating the REA
 Working on Styles now. im going to push up the new code i wrote last night.
 
 
-to research: 🧐
+🧐  Research: 
 
 < 💅 >styled-components< 💅 />
 
-to-do: 🙃
+
+🙃  To-do: 
 
 make a toggle dark mode button. 
 
-![](https://git.io/Doge) Go fetch some blog posts 
+![](https://git.io/Doge)  Go fetch some blog posts 
 
