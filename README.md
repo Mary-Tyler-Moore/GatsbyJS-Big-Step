@@ -1,4 +1,4 @@
-Hey Guys! ![HeyGuys](https://git.io/HeyGuys) 
+![HeyGuys](https://git.io/HeyGuys) Hey Guys!
 
 
 This is a crazy project. But I'm very happy overall. I do need to set up a webhook so that Netlify will know to rebuild my site whenever new content is published in Contentful.
@@ -16,5 +16,5 @@ to-do: 🙃
 
 make a toggle dark mode button. 
 
-Go fetch some blog posts ![](https://git.io/Doge)
+![](https://git.io/Doge) Go fetch some blog posts 
 
