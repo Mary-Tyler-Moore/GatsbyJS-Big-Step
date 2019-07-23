@@ -18,9 +18,8 @@ const Blog = ({ data }) => {
       "embedded-asset-block": node => {
         return (
           <div className="rich">
-            <h3>this is an awesome image</h3>
             <img width="400" src={node.data.target.fields.file["en-US"].url} />
-            <p>images provided by john doe</p>
+            <p>images by CJ</p>
           </div>
         )
       },
