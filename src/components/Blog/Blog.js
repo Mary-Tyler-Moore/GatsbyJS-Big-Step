@@ -14,7 +14,7 @@ const getPosts = graphql`
           published(formatString: "MMMM Do, YYYY")
           image {
             fluid {
-              ...GatsbyContentfulFluid
+              ...GatsbyContentfulFluid_tracedSVG_tracedSVG_tracedSVG
             }
           }
         }

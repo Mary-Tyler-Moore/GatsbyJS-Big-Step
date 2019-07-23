@@ -67,7 +67,7 @@ export const query = graphql`
       days
       images {
         fluid {
-          ...GatsbyContentfulFluid
+          ...GatsbyContentfulFluid_tracedSVG
         }
       }
       start(formatString: "dddd MMMM Do, YYYY")
