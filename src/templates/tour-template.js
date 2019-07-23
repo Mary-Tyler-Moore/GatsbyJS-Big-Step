@@ -42,23 +42,12 @@ const Template = ({ data }) => {
           <h2>{name}</h2>
           <div className={styles.info}>
             <p>
-              <FaMoneyBillWave className={styles.icon} />
-              starting from ${price}
-            </p>
-            <p>
               <FaMap className={styles.icon} />
               {country}
             </p>
           </div>
-          <h4>starts on : {start}</h4>
-          <h4>duration : {days} days</h4>
-          <p className={styles.desc}>{description}</p>
-
-          <h2>daily schedule</h2>
-          <div className={styles.journey}>
-            {journey.map((item, index) => {
-              return <Day key={index} day={item.day} info={item.info} />
-            })}
+          <div>
+            <p className={styles.desc}>{description}</p>
           </div>
           <Link to="/tours" className="btn-primary">
             back to programs
