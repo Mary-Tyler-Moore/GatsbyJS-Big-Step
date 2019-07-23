@@ -15,7 +15,7 @@ const Tours = () => {
             days
             images {
               fluid {
-                ...GatsbyContentfulFluid_tracedSVG_tracedSVG
+                ...GatsbyContentfulFluid_tracedSVG
               }
             }
           }
