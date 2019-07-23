@@ -8,7 +8,7 @@ export default [
     text: "about",
   },
   {
-    path: "/blog",
+    path: "/single-post",
     text: "blog",
   },
   {
