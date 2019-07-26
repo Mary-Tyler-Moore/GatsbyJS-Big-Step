@@ -9,6 +9,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 import StyledHero from "../components/StyledHero"
 import { graphql } from "gatsby"
 import Featured from "../components/Home/Featured"
+import Gallery from "../components/Home/Gallery"
 import SEO from "../components/SEO"
 export default memo(({ data }) => {
   const tours = data.tours.edges
@@ -26,6 +27,7 @@ export default memo(({ data }) => {
         </Banner>
       </StyledHero>
       <About />
+      <Gallery />
       <Featured tours={tours} />
     </Layout>
   )
