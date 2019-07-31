@@ -9,7 +9,7 @@ export default function Gallery() {
     <StaticQuery
       query={graphql`
         {
-          img1: file(relativePath: { eq: "homeGallery/img-1.png" }) {
+          img1: file(relativePath: { eq: "homeGallery/gallery-3.png" }) {
             childImageSharp {
               fluid(maxWidth: 500) {
                 ...GatsbyImageSharpFluid_tracedSVG
@@ -23,7 +23,7 @@ export default function Gallery() {
               }
             }
           }
-          img3: file(relativePath: { eq: "homeGallery/fun.png" }) {
+          img3: file(relativePath: { eq: "homeGallery/gallery-1.png" }) {
             childImageSharp {
               fluid(maxWidth: 500) {
                 ...GatsbyImageSharpFluid_tracedSVG
@@ -37,6 +37,20 @@ export default function Gallery() {
               }
             }
           }
+          img5: file(relativePath: { eq: "homeGallery/img-5.png" }) {
+            childImageSharp {
+              fluid(maxWidth: 1000) {
+                ...GatsbyImageSharpFluid_tracedSVG
+              }
+            }
+          }
+          img6: file(relativePath: { eq: "homeGallery/gallery-4.png" }) {
+            childImageSharp {
+              fluid(maxWidth: 1000) {
+                ...GatsbyImageSharpFluid_tracedSVG
+              }
+            }
+          }
         }
       `}
       render={data => {
@@ -44,6 +58,8 @@ export default function Gallery() {
         const img2 = data.img2.childImageSharp.fluid
         const img3 = data.img3.childImageSharp.fluid
         const img4 = data.img4.childImageSharp.fluid
+        const img5 = data.img5.childImageSharp.fluid
+        const img6 = data.img6.childImageSharp.fluid
         return (
           <Section>
             <GalleryWrapper>
@@ -58,6 +74,12 @@ export default function Gallery() {
               </div>
               <div className="item item-4">
                 <Img fluid={img4} />
+              </div>
+              <div className="item item-5">
+                <Img fluid={img5} />
+              </div>
+              <div className="item item-6">
+                <Img fluid={img6} />
               </div>
             </GalleryWrapper>
           </Section>
@@ -94,9 +116,10 @@ const GalleryWrapper = styled.div`
       height: 100%;
     }
     grid-template-areas:
-      "one  one two two  "
-      "one  one three three "
-      "four four four four";
+      "one one two two"
+      "one one three three"
+      "six four four four"
+      "six four four four";
     .item-1 {
       grid-area: one;
     }
@@ -108,6 +131,12 @@ const GalleryWrapper = styled.div`
     }
     .item-4 {
       grid-area: four;
+    }
+    .item-5 {
+      grid-area: five;
+    }
+    .item-6 {
+      grid-area: six;
     }
   }
 `
