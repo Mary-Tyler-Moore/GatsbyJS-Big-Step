@@ -1,4 +1,5 @@
 import React from "react"
+import PreHeader from "./pre-header"
 import Navbar from "./Navbar"
 import Contact from "../components/Contact/Contact"
 import Footer from "./Footer"
@@ -6,6 +7,7 @@ import Footer from "./Footer"
 const Layout = ({ children }) => {
   return (
     <main>
+      <PreHeader />
       <Navbar />
       {children}
       <Contact />
