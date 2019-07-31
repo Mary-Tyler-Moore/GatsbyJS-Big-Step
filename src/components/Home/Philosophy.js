@@ -1,7 +1,6 @@
 import React from "react"
 import Title from "../Title"
 import styles from "../../css/services.module.css"
-//import services from "../../constants/services"
 const Philosophy = () => {
   return (
     <section className={styles.services}>

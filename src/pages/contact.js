@@ -2,7 +2,6 @@ import React from "react"
 import Layout from "../components/Layout"
 import StyledHero from "../components/StyledHero"
 import { graphql } from "gatsby"
-import Contact from "../components/Contact/Contact"
 import SEO from "../components/SEO"
 
 const contact = ({ data }) => {
@@ -10,7 +9,6 @@ const contact = ({ data }) => {
     <Layout>
       <SEO title="Contact" />
       <StyledHero img={data.bcg.childImageSharp.fluid} />
-      <Contact />
     </Layout>
   )
 }
