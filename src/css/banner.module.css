@@ -2,14 +2,14 @@
   text-align: center;
   letter-spacing: var(--mainSpacing);
   color: var(--mainWhite);
-  text-shadow: 3px 5px 2px rgba(0, 0, 0, 0.9);
 }
 .banner h1 {
   font-size: 3.3rem;
   text-transform: uppercase;
   margin-bottom: 2rem;
   padding: 0 1rem;
-  letter-spacing: 6px;
+  letter-spacing: 5px;
+  text-shadow: 4px 5px 3px rgba(0, 0, 0, 0.9);
 }
 .banner p {
   width: 85%;
@@ -18,7 +18,7 @@
 }
 @media screen and (min-width: 768px) {
   .banner h1 {
-    font-size: 4.5rem;
+    font-size: 6rem;
   }
   .banner p {
     width: 70%;
