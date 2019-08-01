@@ -32,6 +32,9 @@ module.exports.createPages = async ({ graphql, actions }) => {
     })
   })
 
+  
+  
+  
   data.posts.edges.forEach(({ node }) => {
     createPage({
       path: `single-post/${node.slug}`,
