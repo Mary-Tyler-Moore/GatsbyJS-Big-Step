@@ -37,14 +37,7 @@ export default function Gallery() {
               }
             }
           }
-          img5: file(relativePath: { eq: "homeGallery/img-5.png" }) {
-            childImageSharp {
-              fluid(maxWidth: 1000) {
-                ...GatsbyImageSharpFluid_tracedSVG
-              }
-            }
-          }
-          img6: file(relativePath: { eq: "homeGallery/gallery-4.png" }) {
+          img5: file(relativePath: { eq: "homeGallery/gallery-4.png" }) {
             childImageSharp {
               fluid(maxWidth: 1000) {
                 ...GatsbyImageSharpFluid_tracedSVG
@@ -59,13 +52,12 @@ export default function Gallery() {
         const img3 = data.img3.childImageSharp.fluid
         const img4 = data.img4.childImageSharp.fluid
         const img5 = data.img5.childImageSharp.fluid
-        const img6 = data.img6.childImageSharp.fluid
         return (
           <Section>
             <GalleryWrapper>
               <div className="item item-1">
                 <Img fluid={img1} />
-                <p className="info">our routine</p>
+                <p className="info-1">find freedom in healthy living</p>
               </div>
               <div className="item item-2">
                 <Img fluid={img2} />
@@ -81,11 +73,7 @@ export default function Gallery() {
               </div>
               <div className="item item-5">
                 <Img fluid={img5} />
-                <p className="info">mentors</p>
-              </div>
-              <div className="item item-6">
-                <Img fluid={img6} />
-                <p className="info">our approach</p>
+                <p className="info">Our Approach</p>
               </div>
             </GalleryWrapper>
           </Section>
@@ -110,22 +98,40 @@ const GalleryWrapper = styled.div`
     padding: 0.1rem 0.3rem;
     text-transform: capitalize;
   }
-  @media (min-width: 576px) {
-    grid-template-columns: 1fr 1fr;
+  @media (max-width: 990px) {
+    grid-template-columns: 1fr;
     grid-column-gap: 0rem;
   }
-  @media (min-width: 768px) {
-    grid-template-columns: repeat(3, 1fr);
+  .info-1 {
+    color: #fff;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    margin-left: -40px;
+    padding: 0.1rem 0.3rem;
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: 1px 2px 0.5px rgba(0, 0, 0, 0.9);
   }
+
   @media (min-width: 992px) {
     .gatsby-image-wrapper {
       height: 100%;
     }
+    .info-1 {
+      position: absolute;
+      top: 15%;
+      left: 10%;
+      font-size: 4rem;
+      padding: 0.1rem 0.3rem;
+      text-transform: capitalize;
+      text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.9);
+    }
     grid-template-areas:
       "one one two two"
       "one one three three"
-      "six four four four"
-      "six four four four";
+      "five four four four"
+      "five four four four";
     .item-1 {
       grid-area: one;
     }
