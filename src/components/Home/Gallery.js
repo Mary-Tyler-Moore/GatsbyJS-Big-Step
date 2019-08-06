@@ -253,6 +253,7 @@ const GalleryWrapper = styled.div`
       letter-spacing: 0.3rem;
       font-size: 3.75rem;
       text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black;
+      line-height: 4rem;
     }
     .info-2 {
       color: #fff;
