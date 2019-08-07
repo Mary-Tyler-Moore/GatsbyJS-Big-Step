@@ -39,9 +39,7 @@ const About = () => {
           <p>
             A whole and fulfilling life is really the point of recovery. While
             that means something different to everyone, the program at Big Step
-            is designed to rapidly integrate men & women back into life—into
-            work, into school, into volunteering, and for those who seek it,
-            participation in the faith community.
+            is designed to rapidly integrate men & women back into life.
           </p>
           <button type="button" className="btn-primary">
             learn more

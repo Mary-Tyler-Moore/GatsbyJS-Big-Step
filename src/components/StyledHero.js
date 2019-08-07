@@ -16,7 +16,7 @@ export default styled(StyledHero)`
 
   background: ${props => {
     return props.home
-      ? "linear-gradient(rgba(32, 93, 134, 0.7), rgba(0, 0, 0, 0.3))"
+      ? "linear-gradient(rgba(32, 93, 134, 0.7), rgba(0, 0, 0, 0.5))"
       : "none"
   }};
   background-position: center;
