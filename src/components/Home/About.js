@@ -2,7 +2,7 @@ import React from "react"
 import Title from "../Title"
 import styles from "../../css/about.module.css"
 import Img from "gatsby-image"
-import AniLink from "gatsby-plugin-transition-link/Anilink"
+//import AniLink from "gatsby-plugin-transition-link/anilink"
 // import img from "../../images/defaultBcg.jpeg"
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -41,9 +41,9 @@ const About = () => {
             that means something different to everyone, the program at Big Step
             is designed to rapidly integrate men & women back into life.
           </p>
-          <AniLink fade to="/philosophy" className="btn-primary">
-            Learn More
-          </AniLink>
+          <button type="button" link to="/tours" className="btn-primary">
+            learn more
+          </button>
         </article>
       </div>
     </section>
