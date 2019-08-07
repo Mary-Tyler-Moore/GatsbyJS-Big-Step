@@ -10,63 +10,63 @@ export default function Gallery() {
     <StaticQuery
       query={graphql`
         {
-          img1: file(relativePath: { eq: "homeGallery/img-1.png" }) {
+          img1: file(relativePath: { eq: "homeGallery/staff-1.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 500) {
                 ...GatsbyImageSharpFluid_tracedSVG
               }
             }
           }
-          img2: file(relativePath: { eq: "homeGallery/img-2.png" }) {
+          img2: file(relativePath: { eq: "homeGallery/staff-1.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 500) {
                 ...GatsbyImageSharpFluid_tracedSVG
               }
             }
           }
-          img3: file(relativePath: { eq: "homeGallery/img-3.png" }) {
+          img3: file(relativePath: { eq: "homeGallery/staff-1.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 500) {
                 ...GatsbyImageSharpFluid_tracedSVG
               }
             }
           }
-          img4: file(relativePath: { eq: "homeGallery/img-1.png" }) {
+          img4: file(relativePath: { eq: "homeGallery/staff-1.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 500) {
                 ...GatsbyImageSharpFluid_tracedSVG
               }
             }
           }
-          img5: file(relativePath: { eq: "homeGallery/img-2.png" }) {
+          img5: file(relativePath: { eq: "homeGallery/staff-1.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 500) {
                 ...GatsbyImageSharpFluid_tracedSVG
               }
             }
           }
-          img6: file(relativePath: { eq: "homeGallery/img-3.png" }) {
+          img6: file(relativePath: { eq: "homeGallery/staff-1.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 500) {
                 ...GatsbyImageSharpFluid_tracedSVG
               }
             }
           }
-          img7: file(relativePath: { eq: "homeGallery/img-1.png" }) {
+          img7: file(relativePath: { eq: "homeGallery/staff-1.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 500) {
                 ...GatsbyImageSharpFluid_tracedSVG
               }
             }
           }
-          img8: file(relativePath: { eq: "homeGallery/img-2.png" }) {
+          img8: file(relativePath: { eq: "homeGallery/staff-1.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 500) {
                 ...GatsbyImageSharpFluid_tracedSVG
               }
             }
           }
-          img9: file(relativePath: { eq: "homeGallery/img-3.png" }) {
+          img9: file(relativePath: { eq: "homeGallery/staff-1.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 500) {
                 ...GatsbyImageSharpFluid_tracedSVG
@@ -91,30 +91,54 @@ export default function Gallery() {
             <GalleryWrapper>
               <div className="item item-1">
                 <Img fluid={img1} />
+                <p className="info-a">Heath Browning</p>
+                <p className="info-b">Co-Founder/Counselor</p>
+                <p className="info-b">LPC, MAC, NCC</p>
               </div>
               <div className="item item-2">
                 <Img fluid={img2} />
+                <p className="info-a">Stuart Gregory</p>
+                <p className="info-b">Co-Founder/COO/Admissions</p>
               </div>
               <div className="item item-3">
                 <Img fluid={img3} />
+                <p className="info-a">Brandon O'Mahoney</p>
+                <p className="info-b">Co-Founder/CFO</p>
               </div>
               <div className="item item-4">
                 <Img fluid={img4} />
+                <p className="info-a">John Capachione</p>
+                <p className="info-b">Clinical Director/Counselor</p>
+                <p className="info-b">M.ED, LPC, CLEP, SAP, RTT</p>
               </div>
               <div className="item item-5">
                 <Img fluid={img5} />
+                <p className="info-a">Dr. Charlie Dean, MD</p>
+                <p className="info-b">Medical Director/Physician</p>
               </div>
               <div className="item item-6">
                 <Img fluid={img6} />
+                <p className="info-a">Janet Scott</p>
+                <p className="info-b">Counselor/Adolescents</p>
+                <p className="info-b">LPC, CAADC, NCC</p>
               </div>
               <div className="item item-7">
                 <Img fluid={img7} />
+                <p className="info-a">Mark Garno</p>
+                <p className="info-b">Counselor</p>
+                <p className="info-b">CAC II, CCS (retired)</p>
               </div>
               <div className="item item-8">
                 <Img fluid={img8} />
+                <p className="info-a">Raymond Scott</p>
+                <p className="info-b">Counselor</p>
+                <p className="info-b">CAC II, CCS</p>
               </div>
               <div className="item item-9">
                 <Img fluid={img9} />
+                <p className="info-a">some text</p>
+                <p className="info-b">some text</p>
+                <p className="info-b">some text</p>
               </div>
             </GalleryWrapper>
           </Section>
@@ -132,6 +156,16 @@ const GalleryWrapper = styled.div`
   margin-right: 3rem;
   .item {
     position: relative;
+  }
+  .info-a {
+    text-align: center;
+    line-height: 1rem;
+    padding-top: 2rem;
+  }
+  .info-b {
+    text-align: center;
+    line-height: 1rem;
+    font-size: 1rem;
   }
   .info {
     position: absolute;
