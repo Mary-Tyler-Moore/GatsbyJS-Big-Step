@@ -128,6 +128,8 @@ const GalleryWrapper = styled.div`
   display: grid;
   grid-template-columns: auto;
   grid-row-gap: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
   .item {
     position: relative;
   }
