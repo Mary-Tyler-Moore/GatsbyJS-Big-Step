@@ -17,56 +17,56 @@ export default function Gallery() {
               }
             }
           }
-          img2: file(relativePath: { eq: "homeGallery/staff-1.jpg" }) {
+          img2: file(relativePath: { eq: "homeGallery/staff-2.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 500) {
                 ...GatsbyImageSharpFluid_tracedSVG
               }
             }
           }
-          img3: file(relativePath: { eq: "homeGallery/staff-1.jpg" }) {
+          img3: file(relativePath: { eq: "homeGallery/staff-3.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 500) {
                 ...GatsbyImageSharpFluid_tracedSVG
               }
             }
           }
-          img4: file(relativePath: { eq: "homeGallery/staff-1.jpg" }) {
+          img4: file(relativePath: { eq: "homeGallery/staff-4.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 500) {
                 ...GatsbyImageSharpFluid_tracedSVG
               }
             }
           }
-          img5: file(relativePath: { eq: "homeGallery/staff-1.jpg" }) {
+          img5: file(relativePath: { eq: "homeGallery/staff-5.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 500) {
                 ...GatsbyImageSharpFluid_tracedSVG
               }
             }
           }
-          img6: file(relativePath: { eq: "homeGallery/staff-1.jpg" }) {
+          img6: file(relativePath: { eq: "homeGallery/staff-6.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 500) {
                 ...GatsbyImageSharpFluid_tracedSVG
               }
             }
           }
-          img7: file(relativePath: { eq: "homeGallery/staff-1.jpg" }) {
+          img7: file(relativePath: { eq: "homeGallery/staff-7.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 500) {
                 ...GatsbyImageSharpFluid_tracedSVG
               }
             }
           }
-          img8: file(relativePath: { eq: "homeGallery/staff-1.jpg" }) {
+          img8: file(relativePath: { eq: "homeGallery/staff-7.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 500) {
                 ...GatsbyImageSharpFluid_tracedSVG
               }
             }
           }
-          img9: file(relativePath: { eq: "homeGallery/staff-1.jpg" }) {
+          img9: file(relativePath: { eq: "homeGallery/staff-9.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 500) {
                 ...GatsbyImageSharpFluid_tracedSVG
