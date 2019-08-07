@@ -66,7 +66,7 @@ export default function Gallery() {
               }
             }
           }
-          img9: file(relativePath: { eq: "homeGallery/staff-9.jpg" }) {
+          img9: file(relativePath: { eq: "homeGallery/staff-7.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 500) {
                 ...GatsbyImageSharpFluid_tracedSVG
