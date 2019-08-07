@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { StaticQuery, graphql } from "gatsby"
-import { styles, Section } from "../../utils"
+import { Section } from "../../utils"
 import Img from "gatsby-image"
 
 export default function Gallery() {
@@ -94,7 +94,6 @@ const GalleryWrapper = styled.div`
     position: absolute;
     top: 0;
     left: 0;
-    background: ${styles.colors.mainYellow};
     padding: 0.1rem 0.3rem;
     text-transform: capitalize;
   }
