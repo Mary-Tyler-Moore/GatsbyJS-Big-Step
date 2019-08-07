@@ -99,11 +99,13 @@ export default function Gallery() {
                 <Img fluid={img2} />
                 <p className="info-a">Stuart Gregory</p>
                 <p className="info-b">Co-Founder/COO/Admissions</p>
+                <p className="info-b">some text</p>
               </div>
               <div className="item item-3">
                 <Img fluid={img3} />
                 <p className="info-a">Brandon O'Mahoney</p>
                 <p className="info-b">Co-Founder/CFO</p>
+                <p className="info-b">some text</p>
               </div>
               <div className="item item-4">
                 <Img fluid={img4} />
@@ -115,6 +117,7 @@ export default function Gallery() {
                 <Img fluid={img5} />
                 <p className="info-a">Dr. Charlie Dean, MD</p>
                 <p className="info-b">Medical Director/Physician</p>
+                <p className="info-b">some text</p>
               </div>
               <div className="item item-6">
                 <Img fluid={img6} />
@@ -161,6 +164,7 @@ const GalleryWrapper = styled.div`
     text-align: center;
     line-height: 1rem;
     padding-top: 2rem;
+    font-size: 1.5rem;
   }
   .info-b {
     text-align: center;
