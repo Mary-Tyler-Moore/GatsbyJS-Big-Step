@@ -9,7 +9,7 @@
   margin-bottom: 2rem;
   padding: 0 1rem;
   letter-spacing: 7px;
-  text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.9);
+  text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 .banner p {
   width: 85%;
