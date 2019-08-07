@@ -35,9 +35,9 @@ export default memo(({ data }) => {
 
 export const query = graphql`
   {
-    defaultBcg: file(relativePath: { eq: "defaultBcg.jpeg" }) {
+    defaultBcg: file(relativePath: { eq: "defaultBg.png" }) {
       childImageSharp {
-        fluid(quality: 90, maxWidth: 4160) {
+        fluid(quality: 100, maxWidth: 1000) {
           ...GatsbyImageSharpFluid_tracedSVG
         }
       }

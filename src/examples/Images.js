@@ -12,7 +12,7 @@ const getImages = graphql`
         }
       }
     }
-    fluid: file(relativePath: { eq: "blogBcg.jpeg" }) {
+    fluid: file(relativePath: { eq: "blogBg.png" }) {
       childImageSharp {
         fluid(maxWidth: 600) {
           ...GatsbyImageSharpFluid_tracedSVG

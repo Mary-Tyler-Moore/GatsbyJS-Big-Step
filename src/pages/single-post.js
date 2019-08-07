@@ -16,9 +16,9 @@ const blogs = ({ data }) => {
 }
 export const query = graphql`
   query {
-    bcg: file(relativePath: { eq: "blogBcg.jpeg" }) {
+    bcg: file(relativePath: { eq: "blogBg.png" }) {
       childImageSharp {
-        fluid(maxWidth: 1600) {
+        fluid(quality: 100, maxWidth: 1000) {
           ...GatsbyImageSharpFluid_tracedSVG
         }
       }

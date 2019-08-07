@@ -10,9 +10,9 @@ const About = () => {
   const { aboutImage } = useStaticQuery(
     graphql`
       query {
-        aboutImage: file(relativePath: { eq: "defaultBcg.jpeg" }) {
+        aboutImage: file(relativePath: { eq: "defaultBg.png" }) {
           childImageSharp {
-            fluid(maxWidth: 600) {
+            fluid(quality: 100, maxWidth: 1000) {
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }

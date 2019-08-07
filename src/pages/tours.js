@@ -17,9 +17,9 @@ const tours = ({ data }) => {
 }
 export const query = graphql`
   query {
-    bcg: file(relativePath: { eq: "defaultBcg.jpeg" }) {
+    bcg: file(relativePath: { eq: "defaultBg.png" }) {
       childImageSharp {
-        fluid(maxWidth: 1600) {
+        fluid(quality: 100, maxWidth: 1000) {
           ...GatsbyImageSharpFluid_tracedSVG
         }
       }

@@ -17,9 +17,9 @@ export default contact
 
 export const query = graphql`
   query {
-    bcg: file(relativePath: { eq: "connectBcg.jpeg" }) {
+    bcg: file(relativePath: { eq: "connectBg.png" }) {
       childImageSharp {
-        fluid(maxWidth: 1600) {
+        fluid(quality: 100, maxWidth: 1000) {
           ...GatsbyImageSharpFluid_tracedSVG
         }
       }
