@@ -1,9 +1,22 @@
 ## Peformance Improvements
-### Before:
-<img src="https://github.com/Mary-Tyler-Moore/GatsbyJS-Big-Step/blob/master/static/before-min.png?raw=true" width="1000" atl="before MTM" />
-### After:
-<img src="https://github.com/Mary-Tyler-Moore/GatsbyJS-Big-Step/blob/master/static/Audit-7-16-19.png?raw=true" width="1000" alt="after MTM" />
 
+### Before:
+
+<img src="https://github.com/Mary-Tyler-Moore/GatsbyJS-Big-Step/blob/master/static/before-min.png?raw=true" width="1000" atl="before MTM" />
+
+### After:
+
+<img src="https://github.com/Mary-Tyler-Moore/GatsbyJS-Big-Step/blob/master/static/Audit-7-16-19.png?raw=true" width="800" alt="after MTM" />
+
+## UI/UX Improvements:
+
+### Mobile:
+
+<img src="http://placekitten.com/900/600" alt="mobile" />
+
+### Desktop:
+
+<img src="http://placekitten.com/800/800" alt="desktop" />
 
 ## Usage
 
