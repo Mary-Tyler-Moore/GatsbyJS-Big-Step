@@ -18,12 +18,6 @@
 
 <img src="http://placekitten.com/800/800" alt="desktop" />
 
-## Usage
-
-I hope this is useful to anyone working with Quasar and VueJS. I'd also like to provide an easy way for folks to share 360 panoramas. 
-
-
-
 
 ## Roadmap
 
