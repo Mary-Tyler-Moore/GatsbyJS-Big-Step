@@ -1,4 +1,7 @@
-[![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/Mary-Tyler-Moore/gatsby-js-big-step)
+
+## Tech Stack:
+<img src="https://github.com/Mary-Tyler-Moore/GatsbyJS-Big-Step/blob/master/static/gatsby-bigstep-stack.png?raw=true" width="1000px" />
+
 
 ## Peformance Improvements
 
@@ -42,14 +45,6 @@ Contributions are what make the open source community such an amazing place to b
 
 Distributed under the Creative Commons BY-NC-SA License. See `LICENSE` for more information.
 
-
-
-# :love_letter: Email Me
-
-#### tmoorewebdesigns@gmail.com
-
-## :pager: Chat me on Discord :space_invader: 
-#### @Mary-Tyler-Moore 
 
 ## Author's Environmental Impact:
 #### I am seeking to work 100% remote. I am seeking to stop driving my car :car: to an office :office: fives days per week. Please help me become a carbon :deciduous_tree: neutral :recycle: JS developer by sharing your stars :sparkles: with me.
