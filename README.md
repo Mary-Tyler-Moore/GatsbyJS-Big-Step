@@ -3,7 +3,7 @@
 <img src="https://github.com/Mary-Tyler-Moore/GatsbyJS-Big-Step/blob/master/static/gatsby-bigstep-stack.png?raw=true" width="1000px" />
 
 ## Contentful Headless CMS Webhooks:
-<img src="https://github.com/Mary-Tyler-Moore/GatsbyJS-Big-Step/blob/master/static/webhook-contentful.jpg?raw=true" width="100px" />
+<img src="https://github.com/Mary-Tyler-Moore/GatsbyJS-Big-Step/blob/master/static/webhook-contentful.jpg?raw=true" width="1000px" />
 
 ## Peformance Improvements
 
