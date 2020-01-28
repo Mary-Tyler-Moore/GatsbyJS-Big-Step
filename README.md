@@ -5,6 +5,9 @@
 ## Contentful Headless CMS Webhooks:
 <img src="https://github.com/Mary-Tyler-Moore/GatsbyJS-Big-Step/blob/master/static/webhook-contentful.jpg?raw=true" width="1000px" />
 
+## Writing notes in Figma
+<img src="https://github.com/Mary-Tyler-Moore/GatsbyJS-Big-Step/blob/master/static/figma.png?raw=true" width="1000px" />
+
 ## Peformance Improvements
 
 ### Before:
