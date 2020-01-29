@@ -1,5 +1,11 @@
+## Star Power :sparkles:
+
+#### If you like my work please star :star: the repo.
+
+<br />
 
 ## Tech Stack:
+> See my other tech stacks [here](https://stackshare.io/Mary-Tyler-Moore)
 <img src="https://github.com/Mary-Tyler-Moore/GatsbyJS-Big-Step/blob/master/static/gatsby-bigstep-stack.png?raw=true" width="1000px" />
 
 ## Contentful Headless CMS Webhooks:
