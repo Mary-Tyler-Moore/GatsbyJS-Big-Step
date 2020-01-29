@@ -50,6 +50,6 @@ Contributions are what make the open source community such an amazing place to b
 
 Distributed under the Creative Commons BY-NC-SA License. See `LICENSE` for more information.
 
+## Author's Environmental Impact Statement:
 
-## Author's Environmental Impact:
-#### I am seeking to work 100% remote. I am seeking to stop driving my car :car: to an office :office: fives days per week. Please help me become a carbon :deciduous_tree: neutral :recycle: JS developer by sharing your stars :sparkles: with me.
+#### I am seeking a job as a remote Frontend Developer. My dream is to stop driving my car :car: to the office :office: everyday. Please help me become a more carbon :deciduous_tree: neutral :recycle: JS dev by sharing your star power :sparkles: with me.
