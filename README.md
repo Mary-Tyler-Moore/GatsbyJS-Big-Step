@@ -8,19 +8,32 @@
 > See my other tech stacks [here](https://stackshare.io/Mary-Tyler-Moore)
 <img src="https://github.com/Mary-Tyler-Moore/GatsbyJS-Big-Step/blob/master/static/gatsby-bigstep-stack.png?raw=true" width="1000px" />
 
+<br />
+
 ## Contentful Headless CMS Webhooks:
 <img src="https://github.com/Mary-Tyler-Moore/GatsbyJS-Big-Step/blob/master/static/webhook-contentful.jpg?raw=true" width="1000px" />
 
-## Writing notes in Figma
+<br />
+
+## Writing Documentation in Figma
+
 <img src="https://github.com/Mary-Tyler-Moore/GatsbyJS-Big-Step/blob/master/static/figma.png?raw=true" width="1000px" />
+
+<br />
 
 ## Peformance Improvements
 
 ### Before:
+> Wix hosted on 1990s Server Stack
 
 <img src="https://github.com/Mary-Tyler-Moore/GatsbyJS-Big-Step/blob/master/static/before-min.png?raw=true" width="1000" atl="before MTM" />
 
 ### After:
+> GatsbyJS deployed to Netlify :sparkles:
+
+<img src="https://github.com/Mary-Tyler-Moore/README-preview/blob/master/puppy-race.gif?raw=true" width="1000" />
+
+<br />
 
 <img src="https://github.com/Mary-Tyler-Moore/GatsbyJS-Big-Step/blob/master/static/Audit-7-16-19.png?raw=true" width="800" alt="after MTM" />
 
