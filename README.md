@@ -4,18 +4,18 @@
 
 <br />
 
-## Tech Stack:
+## 🤓 Tech Stack:
 > See my other tech stacks [here](https://stackshare.io/Mary-Tyler-Moore)
 <img src="https://github.com/Mary-Tyler-Moore/GatsbyJS-Big-Step/blob/master/static/gatsby-bigstep-stack.png?raw=true" width="1000px" />
 
 <br />
 
-## Contentful Headless CMS Webhooks:
+## Contentful 🧘‍♀️ Headless 🤯 CMS Webhooks:
 <img src="https://github.com/Mary-Tyler-Moore/GatsbyJS-Big-Step/blob/master/static/webhook-contentful.jpg?raw=true" width="1000px" />
 
 <br />
 
-## Writing Documentation in Figma
+## Writing 🖋 Documentation 📓 using Figma
 
 <img src="https://github.com/Mary-Tyler-Moore/GatsbyJS-Big-Step/blob/master/static/figma.png?raw=true" width="1000px" />
 
